@@ -41,6 +41,17 @@ This repository provides the necessary code, primarily in **Mathematica**, to ha
    - Compute its **diagonal Padé approximant** for improved accuracy.  
 3. The resulting coefficients will be saved in **`TaylorTable.txt`** and **`PadeTable.txt`**, properly formatted for LaTeX.  
 
+## Authors
+
+- Santiago Llorens (UAB)
+- Warther González (U. de los Andes)
+- Gael Sentís (UAB and Ideaded)
+- John Calsamiglia (UAB)
+- Emili Bagan (UAB)
+- Ramon Muñoz-Tapia (UAB)
+
+
+
 ## Citation  
 
 If you find this repository useful, please consider citing our paper:  
