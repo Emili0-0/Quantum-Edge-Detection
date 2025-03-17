@@ -1,4 +1,4 @@
-# Quantum Edge Detection (QED)
+# Quantum Edge Detection
 
 This repository contains code and supplementary files related to our paper:  
 **Quantum Edge Detection (QED)** – [arXiv:2405.11373](https://arxiv.org/abs/2405.11373)  
@@ -55,4 +55,4 @@ This repository provides the necessary code, primarily in **Mathematica**, to ha
 ## Citation  
 
 If you find this repository useful, please consider citing our paper:  
-**Quantum Edge Detection (QED)** – [arXiv:2405.11373](https://arxiv.org/abs/2405.11373)  
+**Quantum Edge Detection** – [arXiv:2405.11373](https://arxiv.org/abs/2405.11373)  
