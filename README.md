@@ -30,6 +30,7 @@ This repository provides the necessary code, primarily in **Mathematica**, to ha
   - Users can modify *d* and *ORD* to generate custom files (*note: higher ORD dramatically increases execution time*).  
 - **`TaylorTable.txt`** – Formatted table of coefficients for the **Taylor series** of *P(x)*.  
 - **`PadeTable.txt`** – Formatted table of coefficients for the **diagonal Padé approximant**, which provides the most accurate results.  
+- **`TaylorTable.tex`** and **`PadeTable.tex`** – LaTeX files for typesetting the tables.
 
 ## Usage  
 
@@ -40,6 +41,7 @@ This repository provides the necessary code, primarily in **Mathematica**, to ha
    - Compute the **Taylor series** of *P(x)* for a given **local dimension (d)**.  
    - Compute its **diagonal Padé approximant** for improved accuracy.  
 3. The resulting coefficients will be saved in **`TaylorTable.txt`** and **`PadeTable.txt`**, properly formatted for LaTeX.  
+4. Compile **`TaylorTable.tex`** and **`PadeTable.tex`** to generate a clean typeset version of the tables.
 
 ## Authors
 
