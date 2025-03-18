@@ -92,9 +92,13 @@ Cell[BoxData[{
      SubsuperscriptBox[
       StyleBox["\[ScriptCapitalB]",
        FontSize->16,
+<<<<<<< HEAD
        FontWeight->"Regular"], "m", "j"], " ", 
      RowBox[{"Eq", ".", " ", 
       RowBox[{"(", "52", ")"}]}]}], ";", 
+=======
+       FontWeight->"Regular"], "m", "j"]}], ";", " ", 
+>>>>>>> parent of ffafb94 (Update PertExp.nb afegir Eq. 52)
     RowBox[{"use", " ", "n", " ", "instead", " ", "of", " ", "N"}]}], " ", 
    "*)"}]}], "\[IndentingNewLine]", 
  RowBox[{
