@@ -1,16 +1,26 @@
 \documentclass[11pt, oneside]{article}  
 \begin{document}
 
+% Define parameters
+\newcommand{\dval}{8}    % Set local dimension d
+\newcommand{\ORDval}{32} % Set highest order ORD
+
 \begin{center}
 \renewcommand{\arraystretch}{1.2}
 \begin{tabular}{|c|| c| c |} 
  \hline
-  $\ r \ $& $A_{r}$ & $B_{r}$  \\ [0.0ex] 
+  $\ l \ $ & $a_{2l-1}$ & $a_{2l}$  \\ [0.5ex] 
  \hline
-\input{PadeTable_8_32.txt}
-\\  [0.0ex]  
+ %
+\input{PadeTable_\dval_\ORDval.txt}    % Pick up one TaylorTable_d_ORD
+%
+\\[0.3ex]
  \hline
 \end{tabular}
+
+\bigskip
+
+Pade approximant coefficients for local dimension $d = \dval$
 \end{center}
 
-\end{document}  
+\end{document}

@@ -1,18 +1,26 @@
 \documentclass[11pt, oneside]{article}  
 \begin{document}
 
+% Define parameters
+\newcommand{\dval}{8}    % Set local dimension d
+\newcommand{\ORDval}{32} % Set highest order ORD
+
 \begin{center}
 \renewcommand{\arraystretch}{1.2}
 \begin{tabular}{|c|| c| c |} 
  \hline
-  $\ l \ $& $a_{2l-1}$ & $a_{2l}$  \\ [0.5ex] 
+  $\ l \ $ & $a_{2l-1}$ & $a_{2l}$  \\ [0.5ex] 
  \hline
  %
-\input{TaylorTable_8_32.txt}    % Pick up one TaylorTable_d_ORD
+\input{TaylorTable_\dval_\ORDval.txt}    % Pick up one TaylorTable_d_ORD
 %
 \\[0.3ex]
  \hline
 \end{tabular}
+
+\bigskip
+
+Taylor series coefficients for local dimension $d = \dval$
 \end{center}
 
-\end{document}  
+\end{document}
