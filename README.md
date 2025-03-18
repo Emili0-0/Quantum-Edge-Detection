@@ -26,7 +26,7 @@ This repository provides the necessary code, primarily in **Mathematica**, to ha
 - **`PertExp.nb`** – Mathematica notebook containing the core calculations.  
 - **`PLis_d_ORD.m`** – Precomputed lists of series expansions in inverse powers of *N*, the length of the string, where:  
   - *d* = local dimension  
-  - *ORD* = highest order of expansion  
+  - *ORD* = highest order of expansion; computing *P(x)* to order *ORD* in *x* requires computing the joint probability *P<sub>j</sub>* in inverse powers of *N* to the same order for *j = 1/2, 1, 3/2, ...*.
   - Users can modify *d* and *ORD* to generate custom files (*note: higher ORD dramatically increases execution time*).  
 - **`TaylorTable.txt`** – Formatted table of coefficients for the **Taylor series** of *P(x)*.  
 - **`PadeTable.txt`** – Formatted table of coefficients for the **diagonal Padé approximant**, which provides the most accurate results.  
