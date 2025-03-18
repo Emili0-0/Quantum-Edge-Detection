@@ -24,7 +24,7 @@ This repository provides the necessary code, primarily in **Mathematica**, to ha
 ## Files Included  
 
 - **`PertExp.nb`** – Mathematica notebook containing the core calculations.  
-- **`PLis_d_ORD.m`** – Precomputed lists of series expansions in inverse powers of *N*, where:  
+- **`PLis_d_ORD.m`** – Precomputed lists of series expansions in inverse powers of *N*, the length of the string, where:  
   - *d* = local dimension  
   - *ORD* = highest order of expansion  
   - Users can modify *d* and *ORD* to generate custom files (*note: higher ORD dramatically increases execution time*).  
@@ -47,8 +47,8 @@ This repository provides the necessary code, primarily in **Mathematica**, to ha
 - Warther González (U. de los Andes)
 - Gael Sentís (UAB and Ideaded)
 - John Calsamiglia (UAB)
-- Emili Bagan (UAB)
 - Ramon Muñoz-Tapia (UAB)
+- Emili Bagan (UAB)
 
 
 
